@@ -1,0 +1,12 @@
+open3d>=0.17.0
+trimesh
+numpy
+scipy
+scikit-learn
+matplotlib
+torch
+plotly
+tqdm
+plyfile
+joblib
+pytest

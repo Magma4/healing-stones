@@ -1,0 +1,13 @@
+data/fragments/*.ply
+data/fragments/*.obj
+data/fragments/*.PLY
+data/fragments/*.OBJ
+data/2d_fragments/*.png
+models/*.pkl
+models/*.pth
+models/*.joblib
+results/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
