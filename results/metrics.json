@@ -1,0 +1,1128 @@
+{
+  "evaluation_metrics": {
+    "num_fragments_loaded": 16,
+    "num_fragments_successfully_placed": 16,
+    "num_assemblies": 1,
+    "mean_alignment_rmse": 5.337512349242076,
+    "estimated_gap_percentage": 102.60926033524672,
+    "surface_classification_accuracy": null
+  },
+  "reconstruction_metrics": {
+    "total_gap_volume_estimate": 123028064.87109992,
+    "matched_break_surface_percentage": 100.0,
+    "overall_alignment_rmse": 12.204231893325844
+  },
+  "refined_matches": [
+    {
+      "fragment_a": "NAR_ST_43B_FR_07_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_10_F_01_R_01.PLY",
+      "score": 0.7936170816789395,
+      "transformation": [
+        [
+          -0.5936544094762778,
+          0.597082571914109,
+          0.5395061115741002,
+          -435.2136883606416
+        ],
+        [
+          0.4701763550721894,
+          0.8014486912577355,
+          -0.3696135690316231,
+          364.081859200103
+        ],
+        [
+          -0.6530762874583668,
+          0.0342402920211927,
+          -0.7565176568738502,
+          -1095.3241330574554
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 1.0,
+      "ransac_inlier_rmse": 10.217709206201327,
+      "correspondence_count": 566,
+      "source_voxel_size": 1.5400345922135676,
+      "target_voxel_size": 12.272104674952542,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.0,
+      "refined_inlier_rmse": 0.0,
+      "refined_correspondence_count": 0,
+      "rejected": true
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_07_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_08_F_01_R_01.PLY",
+      "score": 0.7479274956768913,
+      "transformation": [
+        [
+          0.21064338872871002,
+          0.9694031496365072,
+          -0.12604323170923026,
+          -106.36600321181356
+        ],
+        [
+          -0.3959275939917117,
+          -0.033286051125272775,
+          -0.9176782546821185,
+          83.99882579145404
+        ],
+        [
+          -0.8937956718964455,
+          0.24320685079846616,
+          0.37680197003714566,
+          -24.911453804954483
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.9151943462897526,
+      "ransac_inlier_rmse": 10.789887165678795,
+      "correspondence_count": 518,
+      "source_voxel_size": 1.5400345922135676,
+      "target_voxel_size": 12.067085071286062,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.1295089091699261,
+      "refined_inlier_rmse": 1.1236243005419426,
+      "refined_correspondence_count": 298,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_01_F_01_R_02.PLY",
+      "fragment_b": "NAR_ST_43B_FR_03_F_01_R_01.PLY",
+      "score": 0.6778426843842535,
+      "transformation": [
+        [
+          0.001344403058981586,
+          -0.6681999746076098,
+          0.743980501434514,
+          9.999091305488149
+        ],
+        [
+          -0.7645433147361675,
+          -0.48023590051069426,
+          -0.4299383673887867,
+          3.052915415819324
+        ],
+        [
+          0.6445709522408468,
+          -0.5682273082095518,
+          -0.5115134541068019,
+          -74.5955470895793
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.5537037037037037,
+      "ransac_inlier_rmse": 17.357887183147295,
+      "correspondence_count": 598,
+      "source_voxel_size": 16.085539944121564,
+      "target_voxel_size": 17.788068925106288,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.37316176470588236,
+      "refined_inlier_rmse": 9.94325992013072,
+      "refined_correspondence_count": 1624,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_01_F_01_R_02.PLY",
+      "fragment_b": "NAR_ST_43B_FR_05_F_01_R_01.PLY",
+      "score": 0.6514839090285348,
+      "transformation": [
+        [
+          0.49655302999808615,
+          -0.6506862237682249,
+          0.5744932781138119,
+          -2.040855254794745
+        ],
+        [
+          -0.8344267011020086,
+          -0.5401431720210625,
+          0.109441464751959,
+          -1.2048974235737513
+        ],
+        [
+          0.23909656812205918,
+          -0.5337160217918043,
+          -0.811159687851281,
+          -32.626164577323635
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.5592592592592592,
+      "ransac_inlier_rmse": 18.362607134707734,
+      "correspondence_count": 604,
+      "source_voxel_size": 16.085539944121564,
+      "target_voxel_size": 19.27278872666968,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.4568014705882353,
+      "refined_inlier_rmse": 9.322521242316872,
+      "refined_correspondence_count": 1988,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_09_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_11_F_01_R_01.PLY",
+      "score": 0.6345343777119794,
+      "transformation": [
+        [
+          -0.0807980136580065,
+          -0.9819421675088312,
+          0.1710592314286018,
+          10.636610154319772
+        ],
+        [
+          -0.9717206547816267,
+          0.039397934880617894,
+          -0.2328234777635362,
+          42.691220988384224
+        ],
+        [
+          0.22187980994152587,
+          -0.18503346290648748,
+          -0.9573567608499716,
+          -53.95839517398143
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.4283154121863799,
+      "ransac_inlier_rmse": 14.636946689690715,
+      "correspondence_count": 239,
+      "source_voxel_size": 15.548185169103284,
+      "target_voxel_size": 14.808815470049415,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.4364119922630561,
+      "refined_inlier_rmse": 6.374843330416222,
+      "refined_correspondence_count": 1805,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_07_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_11_F_01_R_01.PLY",
+      "score": 0.6065110932413238,
+      "transformation": [
+        [
+          0.5942101356848927,
+          -0.028995600779774363,
+          -0.803787017676176,
+          86.95147936730915
+        ],
+        [
+          -0.30319072850484874,
+          -0.9337034105996268,
+          -0.1904555674777976,
+          115.45919304367257
+        ],
+        [
+          -0.7449763061991016,
+          0.35687140004490914,
+          -0.5636072276257097,
+          -87.30020283292647
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.6678445229681979,
+      "ransac_inlier_rmse": 12.331305018097076,
+      "correspondence_count": 378,
+      "source_voxel_size": 1.5400345922135676,
+      "target_voxel_size": 14.808815470049415,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.14037375054324208,
+      "refined_inlier_rmse": 1.1363163768732185,
+      "refined_correspondence_count": 323,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_10_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_11_F_01_R_01.PLY",
+      "score": 0.6052573710324979,
+      "transformation": [
+        [
+          -0.062217398488103176,
+          -0.9555463083069324,
+          -0.28820174879130733,
+          -36.764594547761575
+        ],
+        [
+          0.9920402275278639,
+          -0.09088160905484283,
+          0.08715916533597635,
+          -47.10852096404233
+        ],
+        [
+          -0.1094768573344796,
+          -0.2804849119232577,
+          0.953594794392026,
+          -0.525536217022336
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.46534653465346537,
+      "ransac_inlier_rmse": 13.828997039063463,
+      "correspondence_count": 235,
+      "source_voxel_size": 12.272104674952542,
+      "target_voxel_size": 14.808815470049415,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.35336194563662376,
+      "refined_inlier_rmse": 6.478313359540221,
+      "refined_correspondence_count": 1235,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_03_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_05_F_01_R_01.PLY",
+      "score": 0.5997662490149145,
+      "transformation": [
+        [
+          -0.9180008994014028,
+          0.39533197632031,
+          0.03141619322769792,
+          -28.044944355450266
+        ],
+        [
+          0.23119948244238772,
+          0.5978628354060873,
+          -0.7675329500148966,
+          28.81274493311171
+        ],
+        [
+          -0.322212892381122,
+          -0.6973325308193448,
+          -0.6402391689396244,
+          -68.64941304207719
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.6866158868335147,
+      "ransac_inlier_rmse": 36.095107211435874,
+      "correspondence_count": 631,
+      "source_voxel_size": 17.788068925106288,
+      "target_voxel_size": 19.27278872666968,
+      "match_scale_factor": 2.0,
+      "refined_fitness": 0.1932760879056906,
+      "refined_inlier_rmse": 11.227613888710499,
+      "refined_correspondence_count": 1328,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_09_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_10_F_01_R_01.PLY",
+      "score": 0.5279519767076721,
+      "transformation": [
+        [
+          -0.9939507451256295,
+          0.05651324190191856,
+          0.09417096024753217,
+          14.40534466232172
+        ],
+        [
+          -0.08714062157419897,
+          0.11608203193051381,
+          -0.9894096593092999,
+          -19.579214709446994
+        ],
+        [
+          -0.06684630383102252,
+          -0.9916305841151846,
+          -0.11045522310652572,
+          -31.60218299826474
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.32616487455197135,
+      "ransac_inlier_rmse": 15.134390927919064,
+      "correspondence_count": 182,
+      "source_voxel_size": 15.548185169103284,
+      "target_voxel_size": 12.272104674952542,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.2845744680851064,
+      "refined_inlier_rmse": 9.093717338249641,
+      "refined_correspondence_count": 1177,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_01_F_01_R_02.PLY",
+      "fragment_b": "NAR_ST_43B_FR_02_F_01_R_01.PLY",
+      "score": 0.5276750333123563,
+      "transformation": [
+        [
+          0.9989208536117314,
+          -0.011864236291235095,
+          -0.04490398776104002,
+          -7.0794283966354055
+        ],
+        [
+          0.006628547569304342,
+          0.9933436071555233,
+          -0.11499800207111936,
+          0.5962933514962914
+        ],
+        [
+          0.04596945264781029,
+          0.11457625417360107,
+          0.9923502866441739,
+          -2.302017800940716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.3712962962962963,
+      "ransac_inlier_rmse": 16.132321066078475,
+      "correspondence_count": 401,
+      "source_voxel_size": 16.085539944121564,
+      "target_voxel_size": 16.0287587079252,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.30124080882352944,
+      "refined_inlier_rmse": 9.58256870424164,
+      "refined_correspondence_count": 1311,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_02_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_03_F_01_R_01.PLY",
+      "score": 0.508270270151734,
+      "transformation": [
+        [
+          0.3681854805640412,
+          0.8429892596013119,
+          -0.39218434453541257,
+          -51.985554711875935
+        ],
+        [
+          -0.6829939686529345,
+          0.5314318486950265,
+          0.5010982228827986,
+          14.441357279304459
+        ],
+        [
+          0.6308396711411993,
+          0.08336245191590212,
+          0.7714220705457245,
+          44.7738461643042
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.33122171945701356,
+      "ransac_inlier_rmse": 15.659245412506026,
+      "correspondence_count": 366,
+      "source_voxel_size": 16.0287587079252,
+      "target_voxel_size": 17.788068925106288,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.3148231079265562,
+      "refined_inlier_rmse": 8.430127084397883,
+      "refined_correspondence_count": 1406,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_04_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_05_F_01_R_01.PLY",
+      "score": 0.49165734274131145,
+      "transformation": [
+        [
+          -0.5740049226153516,
+          -0.6755319101860443,
+          0.462790435438928,
+          -21.700032521712348
+        ],
+        [
+          0.7997645576845877,
+          -0.3411853905433556,
+          0.49393236536122453,
+          -98.54964693069937
+        ],
+        [
+          -0.17576973882022928,
+          0.6536429970558377,
+          0.736108573048101,
+          70.20003987892427
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.3680351906158358,
+      "ransac_inlier_rmse": 17.822133416569773,
+      "correspondence_count": 251,
+      "source_voxel_size": 15.106215747265791,
+      "target_voxel_size": 19.27278872666968,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.23958106044075933,
+      "refined_inlier_rmse": 8.212432832914699,
+      "refined_correspondence_count": 1098,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_12_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_16_F_01_R_01.PLY",
+      "score": 0.48611059894989017,
+      "transformation": [
+        [
+          0.9293536156900876,
+          0.29190616923764334,
+          0.2260368230284201,
+          0.7096672661937934
+        ],
+        [
+          -0.3166721319848262,
+          0.9450190461314774,
+          0.08159511794773155,
+          -1.266829199469209
+        ],
+        [
+          -0.18979098458029725,
+          -0.14741028054286842,
+          0.9706954163703028,
+          -0.4083693491253031
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.3694581280788177,
+      "ransac_inlier_rmse": 2.2434147186539084,
+      "correspondence_count": 225,
+      "source_voxel_size": 1.9605239268005716,
+      "target_voxel_size": 2.315351269686792,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.3000635727908455,
+      "refined_inlier_rmse": 1.1306661453490012,
+      "refined_correspondence_count": 944,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_15_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_16_F_01_R_01.PLY",
+      "score": 0.4546044584035346,
+      "transformation": [
+        [
+          0.11823378545497629,
+          -0.8592107429912872,
+          -0.4977727102858558,
+          -31.127977830077253
+        ],
+        [
+          -0.07028459475789071,
+          0.49279028165993755,
+          -0.8673049141110852,
+          -11.257505313711942
+        ],
+        [
+          0.9904952537577963,
+          0.13753049636303602,
+          -0.00212481844669112,
+          -7.665994513449516
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.3958333333333333,
+      "ransac_inlier_rmse": 2.107204359027807,
+      "correspondence_count": 209,
+      "source_voxel_size": 0.7477310404991633,
+      "target_voxel_size": 2.315351269686792,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.21467688937568455,
+      "refined_inlier_rmse": 0.4487593594448595,
+      "refined_correspondence_count": 196,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_04_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_08_F_01_R_01.PLY",
+      "score": 0.4165532975052885,
+      "transformation": [
+        [
+          0.9010947547767644,
+          0.26961143539994986,
+          -0.3396143648543662,
+          58.832878077946674
+        ],
+        [
+          -0.250889708761342,
+          0.9629616506309662,
+          0.09878873140064875,
+          -65.17282781898665
+        ],
+        [
+          0.35367018103241143,
+          -0.0038122586066944054,
+          0.9353624269409173,
+          47.468564725165
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.20087976539589442,
+      "ransac_inlier_rmse": 14.939533717575006,
+      "correspondence_count": 137,
+      "source_voxel_size": 15.106215747265791,
+      "target_voxel_size": 12.067085071286062,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.16430285838970107,
+      "refined_inlier_rmse": 9.492731815171204,
+      "refined_correspondence_count": 753,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_04_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_06_F_01_R_01.PLY",
+      "score": 0.41200995964288545,
+      "transformation": [
+        [
+          -0.10711605921296141,
+          -0.6616182384863984,
+          0.7421505617870531,
+          22.267536688159517
+        ],
+        [
+          -0.9895170982517688,
+          0.14366083803317625,
+          -0.014747063538198999,
+          -31.950016984987307
+        ],
+        [
+          -0.09686104545213094,
+          -0.7359503176966218,
+          -0.6700709423308575,
+          -31.0345113855921
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.22727272727272727,
+      "ransac_inlier_rmse": 14.977991616903077,
+      "correspondence_count": 155,
+      "source_voxel_size": 15.106215747265791,
+      "target_voxel_size": 13.66727627299242,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.15775692777656558,
+      "refined_inlier_rmse": 9.514857338409655,
+      "refined_correspondence_count": 723,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_08_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_09_F_01_R_01.PLY",
+      "score": 0.4061301001310268,
+      "transformation": [
+        [
+          -0.1888680357354243,
+          -0.8919431651546971,
+          0.4108117028655002,
+          50.715365787309246
+        ],
+        [
+          0.9024535348025208,
+          -0.32259119686747517,
+          -0.28550400562170786,
+          142.6746777579226
+        ],
+        [
+          0.38717758535312685,
+          0.31681589265285187,
+          0.8658644279347198,
+          8.027837343467455
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.2672727272727273,
+      "ransac_inlier_rmse": 13.783652140771302,
+      "correspondence_count": 147,
+      "source_voxel_size": 12.067085071286062,
+      "target_voxel_size": 15.548185169103284,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.17870619946091645,
+      "refined_inlier_rmse": 5.958468202119597,
+      "refined_correspondence_count": 663,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_15_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_17_F_01_R_01.PLY",
+      "score": 0.3762871317269076,
+      "transformation": [
+        [
+          -0.020868388267317812,
+          0.45284551820046504,
+          0.8913447408364986,
+          -11.567158610064677
+        ],
+        [
+          -0.9766050338484266,
+          -0.20008713364504188,
+          0.07878925568648443,
+          -2.351633604816219
+        ],
+        [
+          0.2140259756035318,
+          -0.8688475560162753,
+          0.44642670862247363,
+          -2.304373358080914
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.23295454545454544,
+      "ransac_inlier_rmse": 1.123788178275631,
+      "correspondence_count": 123,
+      "source_voxel_size": 0.7477310404991633,
+      "target_voxel_size": 1.140484693047864,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.1511500547645126,
+      "refined_inlier_rmse": 0.6624313095830947,
+      "refined_correspondence_count": 138,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_12_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_15_F_01_R_01.PLY",
+      "score": 0.3736578970025932,
+      "transformation": [
+        [
+          0.6460052287859888,
+          -0.7505025122112512,
+          0.1393672255079468,
+          5.127850648048945
+        ],
+        [
+          0.433552001789696,
+          0.2104760658322591,
+          -0.87620345094955,
+          1.1287825305152552
+        ],
+        [
+          0.6282594258149318,
+          0.626454950396586,
+          0.4613505055793283,
+          27.307495655020826
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.12479474548440066,
+      "ransac_inlier_rmse": 1.7448099965810369,
+      "correspondence_count": 76,
+      "source_voxel_size": 1.9605239268005716,
+      "target_voxel_size": 0.7477310404991633,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.11029879211697394,
+      "refined_inlier_rmse": 1.1105207497866667,
+      "refined_correspondence_count": 347,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_14_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_17_F_01_R_01.PLY",
+      "score": 0.3590848099927608,
+      "transformation": [
+        [
+          0.41790087809019355,
+          0.12098253722716759,
+          0.9004010671792445,
+          2.1511071253926843
+        ],
+        [
+          0.8622083507794603,
+          0.25949160943032934,
+          -0.4350412215887551,
+          -2.99735125844795
+        ],
+        [
+          -0.28627891284134177,
+          0.958137427680047,
+          0.004129617542222274,
+          -15.908928010215089
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.17304189435336975,
+      "ransac_inlier_rmse": 1.3930970233938413,
+      "correspondence_count": 95,
+      "source_voxel_size": 1.463694805393448,
+      "target_voxel_size": 1.140484693047864,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.11606268364348678,
+      "refined_inlier_rmse": 0.8852274976026022,
+      "refined_correspondence_count": 237,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_14_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_16_F_01_R_01.PLY",
+      "score": 0.3556536947001447,
+      "transformation": [
+        [
+          0.5432305421160858,
+          -0.6509139027330054,
+          0.530293946166791,
+          -11.833190840851534
+        ],
+        [
+          -0.41141366969557275,
+          -0.7569615614312724,
+          -0.5076888682088262,
+          -22.00727373972186
+        ],
+        [
+          0.7318738760878752,
+          0.05762192069355906,
+          -0.6789995167566059,
+          -14.078933506069532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.1912568306010929,
+      "ransac_inlier_rmse": 2.046919067510284,
+      "correspondence_count": 105,
+      "source_voxel_size": 1.463694805393448,
+      "target_voxel_size": 2.315351269686792,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.1714005876591577,
+      "refined_inlier_rmse": 0.8529790388417621,
+      "refined_correspondence_count": 350,
+      "rejected": false
+    },
+    {
+      "fragment_a": "NAR_ST_43B_FR_12_F_01_R_01.PLY",
+      "fragment_b": "NAR_ST_43B_FR_17_F_01_R_01.PLY",
+      "score": 0.33289753234815744,
+      "transformation": [
+        [
+          -0.3305730635929403,
+          -0.8212110461323843,
+          -0.46511704692145395,
+          -5.8606172569521995
+        ],
+        [
+          -0.19859311303910596,
+          0.5423156306263222,
+          -0.8163666653114872,
+          8.76517445826185
+        ],
+        [
+          0.9226495678643195,
+          -0.17749978729148613,
+          -0.34236179756401675,
+          3.3160125314492928
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ransac_fitness": 0.15270935960591134,
+      "ransac_inlier_rmse": 2.012718702913329,
+      "correspondence_count": 93,
+      "source_voxel_size": 1.9605239268005716,
+      "target_voxel_size": 1.140484693047864,
+      "match_scale_factor": 1.0,
+      "refined_fitness": 0.13986013986013987,
+      "refined_inlier_rmse": 1.1057794994415804,
+      "refined_correspondence_count": 440,
+      "rejected": false
+    }
+  ],
+  "pair_alignment_rmse": {
+    "NAR_ST_43B_FR_07_F_01_R_01.PLY__NAR_ST_43B_FR_08_F_01_R_01.PLY": 1.1236243005419426,
+    "NAR_ST_43B_FR_01_F_01_R_02.PLY__NAR_ST_43B_FR_03_F_01_R_01.PLY": 9.94325992013072,
+    "NAR_ST_43B_FR_01_F_01_R_02.PLY__NAR_ST_43B_FR_05_F_01_R_01.PLY": 9.322521242316872,
+    "NAR_ST_43B_FR_09_F_01_R_01.PLY__NAR_ST_43B_FR_11_F_01_R_01.PLY": 6.374843330416222,
+    "NAR_ST_43B_FR_07_F_01_R_01.PLY__NAR_ST_43B_FR_11_F_01_R_01.PLY": 1.1363163768732185,
+    "NAR_ST_43B_FR_10_F_01_R_01.PLY__NAR_ST_43B_FR_11_F_01_R_01.PLY": 6.478313359540221,
+    "NAR_ST_43B_FR_03_F_01_R_01.PLY__NAR_ST_43B_FR_05_F_01_R_01.PLY": 11.227613888710499,
+    "NAR_ST_43B_FR_09_F_01_R_01.PLY__NAR_ST_43B_FR_10_F_01_R_01.PLY": 9.093717338249641,
+    "NAR_ST_43B_FR_01_F_01_R_02.PLY__NAR_ST_43B_FR_02_F_01_R_01.PLY": 9.58256870424164,
+    "NAR_ST_43B_FR_02_F_01_R_01.PLY__NAR_ST_43B_FR_03_F_01_R_01.PLY": 8.430127084397883,
+    "NAR_ST_43B_FR_04_F_01_R_01.PLY__NAR_ST_43B_FR_05_F_01_R_01.PLY": 8.212432832914699,
+    "NAR_ST_43B_FR_12_F_01_R_01.PLY__NAR_ST_43B_FR_16_F_01_R_01.PLY": 1.1306661453490012,
+    "NAR_ST_43B_FR_15_F_01_R_01.PLY__NAR_ST_43B_FR_16_F_01_R_01.PLY": 0.4487593594448595,
+    "NAR_ST_43B_FR_04_F_01_R_01.PLY__NAR_ST_43B_FR_08_F_01_R_01.PLY": 9.492731815171204,
+    "NAR_ST_43B_FR_04_F_01_R_01.PLY__NAR_ST_43B_FR_06_F_01_R_01.PLY": 9.514857338409655,
+    "NAR_ST_43B_FR_08_F_01_R_01.PLY__NAR_ST_43B_FR_09_F_01_R_01.PLY": 5.958468202119597,
+    "NAR_ST_43B_FR_15_F_01_R_01.PLY__NAR_ST_43B_FR_17_F_01_R_01.PLY": 0.6624313095830947,
+    "NAR_ST_43B_FR_12_F_01_R_01.PLY__NAR_ST_43B_FR_15_F_01_R_01.PLY": 1.1105207497866667,
+    "NAR_ST_43B_FR_14_F_01_R_01.PLY__NAR_ST_43B_FR_17_F_01_R_01.PLY": 0.8852274976026022,
+    "NAR_ST_43B_FR_14_F_01_R_01.PLY__NAR_ST_43B_FR_16_F_01_R_01.PLY": 0.8529790388417621,
+    "NAR_ST_43B_FR_12_F_01_R_01.PLY__NAR_ST_43B_FR_17_F_01_R_01.PLY": 1.1057794994415804
+  },
+  "surface_breakdown": {
+    "break": 72485,
+    "original": 430007,
+    "uncertain": 7858
+  },
+  "classification_summary": {
+    "NAR_ST_43B_FR_01_F_01_R_02.PLY": {
+      "full_mesh_vertices": 11860704,
+      "working_points": 16811,
+      "break_points": 4352,
+      "original_points": 12459,
+      "uncertain_points": 548,
+      "mean_confidence": 0.9412702992088513
+    },
+    "NAR_ST_43B_FR_02_F_01_R_01.PLY": {
+      "full_mesh_vertices": 12950276,
+      "working_points": 19115,
+      "break_points": 4467,
+      "original_points": 14648,
+      "uncertain_points": 628,
+      "mean_confidence": 0.9304661260789956
+    },
+    "NAR_ST_43B_FR_03_F_01_R_01.PLY": {
+      "full_mesh_vertices": 10109479,
+      "working_points": 29519,
+      "break_points": 6873,
+      "original_points": 22646,
+      "uncertain_points": 968,
+      "mean_confidence": 0.933448287543616
+    },
+    "NAR_ST_43B_FR_04_F_01_R_01.PLY": {
+      "full_mesh_vertices": 7764206,
+      "working_points": 29462,
+      "break_points": 4583,
+      "original_points": 24879,
+      "uncertain_points": 668,
+      "mean_confidence": 0.9659795668997353
+    },
+    "NAR_ST_43B_FR_05_F_01_R_01.PLY": {
+      "full_mesh_vertices": 12823848,
+      "working_points": 31364,
+      "break_points": 6154,
+      "original_points": 25210,
+      "uncertain_points": 535,
+      "mean_confidence": 0.9684082068613696
+    },
+    "NAR_ST_43B_FR_06_F_01_R_01.PLY": {
+      "full_mesh_vertices": 9179652,
+      "working_points": 17251,
+      "break_points": 2705,
+      "original_points": 14546,
+      "uncertain_points": 362,
+      "mean_confidence": 0.9559077734624079
+    },
+    "NAR_ST_43B_FR_07_F_01_R_01.PLY": {
+      "full_mesh_vertices": 61311,
+      "working_points": 61311,
+      "break_points": 5438,
+      "original_points": 55873,
+      "uncertain_points": 341,
+      "mean_confidence": 0.9791261763794425
+    },
+    "NAR_ST_43B_FR_08_F_01_R_01.PLY": {
+      "full_mesh_vertices": 5251221,
+      "working_points": 28793,
+      "break_points": 3712,
+      "original_points": 25081,
+      "uncertain_points": 277,
+      "mean_confidence": 0.979248949397423
+    },
+    "NAR_ST_43B_FR_09_F_01_R_01.PLY": {
+      "full_mesh_vertices": 6384319,
+      "working_points": 23253,
+      "break_points": 4136,
+      "original_points": 19117,
+      "uncertain_points": 294,
+      "mean_confidence": 0.9637180148798005
+    },
+    "NAR_ST_43B_FR_10_F_01_R_01.PLY": {
+      "full_mesh_vertices": 3990451,
+      "working_points": 22330,
+      "break_points": 3496,
+      "original_points": 18834,
+      "uncertain_points": 258,
+      "mean_confidence": 0.9480879982086878
+    },
+    "NAR_ST_43B_FR_11_F_01_R_01.PLY": {
+      "full_mesh_vertices": 6885553,
+      "working_points": 26737,
+      "break_points": 8619,
+      "original_points": 18118,
+      "uncertain_points": 874,
+      "mean_confidence": 0.9423714328458689
+    },
+    "NAR_ST_43B_FR_12_F_01_R_01.PLY": {
+      "full_mesh_vertices": 155260,
+      "working_points": 30899,
+      "break_points": 3531,
+      "original_points": 27368,
+      "uncertain_points": 457,
+      "mean_confidence": 0.9637112851548593
+    },
+    "NAR_ST_43B_FR_14_F_01_R_01.PLY": {
+      "full_mesh_vertices": 65056,
+      "working_points": 65056,
+      "break_points": 4806,
+      "original_points": 60250,
+      "uncertain_points": 289,
+      "mean_confidence": 0.9754210218888343
+    },
+    "NAR_ST_43B_FR_15_F_01_R_01.PLY": {
+      "full_mesh_vertices": 16327,
+      "working_points": 16327,
+      "break_points": 2140,
+      "original_points": 14187,
+      "uncertain_points": 72,
+      "mean_confidence": 0.9770058798309549
+    },
+    "NAR_ST_43B_FR_16_F_01_R_01.PLY": {
+      "full_mesh_vertices": 195698,
+      "working_points": 30072,
+      "break_points": 4855,
+      "original_points": 25217,
+      "uncertain_points": 900,
+      "mean_confidence": 0.9554996342112264
+    },
+    "NAR_ST_43B_FR_17_F_01_R_01.PLY": {
+      "full_mesh_vertices": 54192,
+      "working_points": 54192,
+      "break_points": 2618,
+      "original_points": 51574,
+      "uncertain_points": 387,
+      "mean_confidence": 0.9792255314437556
+    }
+  },
+  "stage_times_seconds": {
+    "Stage 1: Data Loading": 19.740052375000005,
+    "Stage 2: Surface Classification": 11.380564417000002,
+    "Stage 3: Feature Extraction": 1.807449874999989,
+    "Stage 4: Matching": 8.890500125000003,
+    "Stage 5: Alignment": 139.90866524999998,
+    "Stage 6: Reconstruction & Evaluation": 257.78936158299996,
+    "Stage 7: Summary Report": 0.0001474999999118154
+  },
+  "total_runtime_seconds": 439.51866624999997,
+  "placed_fragments": [
+    "NAR_ST_43B_FR_01_F_01_R_02.PLY",
+    "NAR_ST_43B_FR_02_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_03_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_04_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_05_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_06_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_07_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_08_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_09_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_10_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_11_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_12_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_14_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_15_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_16_F_01_R_01.PLY",
+    "NAR_ST_43B_FR_17_F_01_R_01.PLY"
+  ],
+  "assembly_groups": [
+    [
+      "NAR_ST_43B_FR_01_F_01_R_02.PLY",
+      "NAR_ST_43B_FR_02_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_03_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_04_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_05_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_06_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_07_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_08_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_09_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_10_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_11_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_12_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_14_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_15_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_16_F_01_R_01.PLY",
+      "NAR_ST_43B_FR_17_F_01_R_01.PLY"
+    ]
+  ],
+  "merged_assemblies": true,
+  "fragments_with_issues": {},
+  "unplaced_fragments": []
+}
